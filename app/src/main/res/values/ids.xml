@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btnExitApp" type="id" />
+    <item name="btnAppBMI" type="id" />
+    <item name="btnAppVat" type="id" />
+    <item name="btnAppGrade" type="id" />
+    <item name="etPrice" type="id" />
+    <item name="btnCalculateVat" type="id" />
+    <item name="tvPrice" type="id" />
+    <item name="tvVat" type="id" />
+    <item name="tvTotal" type="id" />
+</resources>

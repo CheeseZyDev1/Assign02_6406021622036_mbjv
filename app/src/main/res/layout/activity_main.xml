@@ -1,0 +1,72 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#BBDEFB"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Main Menu"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:layout_marginBottom="8dp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/tvAuthor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="จัดทำโดย\nรหัส: 65-060216-9999-9\nนายสมชัย เชียงพงศ์พันธ์"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:layout_marginBottom="16dp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnAppGrade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="App Grade"
+        android:backgroundTint="#673AB7"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="12dp"
+        tools:ignore="HardcodedText,VisualLintButtonSize" />
+
+    <Button
+        android:id="@+id/btnAppVat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="App Vat Product"
+        android:backgroundTint="#673AB7"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="12dp"
+        tools:ignore="HardcodedText,VisualLintButtonSize" />
+
+    <Button
+        android:id="@+id/btnAppBMI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="App BMI"
+        android:backgroundTint="#673AB7"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="12dp"
+        tools:ignore="HardcodedText,VisualLintButtonSize" />
+
+    <Button
+        android:id="@+id/btnExitApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exit App"
+        android:backgroundTint="#673AB7"
+        android:textColor="#FFFFFF"
+        tools:ignore="HardcodedText,VisualLintButtonSize" />
+</LinearLayout>
